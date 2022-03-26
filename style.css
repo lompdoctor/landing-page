@@ -31,7 +31,8 @@ button {
     margin: 20px auto;
     background-color: cornflowerblue;
     color: #f9faf8;
-
+    border-radius: 12px;
+    padding: 8px 16px;
 }
 .subtext {
     margin-bottom: 32px;
