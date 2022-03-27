@@ -42,15 +42,46 @@
     color: #e5e7eb;
 }
 
+.upper-mid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .image {
+    background-color: cornflowerblue;
+    height: 36px;
+    width: 64px;
+    display: flex;
+    margin: 20px 20px;
+    border-radius: 12px;
+}
+
+.container .image-container {
+    display: flex;
+    width: 200px;
+    margin: 24px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 button {
-    margin: 20px auto;
+    margin: 32px auto;
     background-color: cornflowerblue;
     color: #f9faf8;
     border-radius: 12px;
     padding: 8px 16px;
 }
-
 
 
 h1 {
