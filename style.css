@@ -1,3 +1,7 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .footer {
     display: flex;
     justify-content: center;
@@ -94,17 +98,39 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px;
 }
 
 .blue-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     background-color: #3882f6;
+    margin: 20px 32px;
+    border-radius: 12px;
+    height: 100px;
+    width: 1000px;
+    padding: 20px 64px;
+    color: #f9faf8;
+}
+
+.action {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.button {
+    display: flex;
+    align-items: center;
 }
 
 button {
     margin: 32px auto;
-    background-color: #3882f6
+    background-color: #3882f6;
     color: #f9faf8;
     border-radius: 12px;
+    border-color: #f9faf8;
     padding: 8px 16px;
 }
 
