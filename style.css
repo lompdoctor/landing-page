@@ -50,7 +50,7 @@
 }
 
 .container .image {
-    background-color: cornflowerblue;
+    background-color: #3882f6;
     height: 36px;
     width: 64px;
     display: flex;
@@ -74,10 +74,35 @@
     align-items: center;
 }
 
+.lower-mid {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    padding: 64px 128px;
+}
+
+.quote {
+    font-style: italic;
+    margin: 20px 20px;
+}
+
+.lower-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-container {
+    background-color: #3882f6;
+}
 
 button {
     margin: 32px auto;
-    background-color: cornflowerblue;
+    background-color: #3882f6
     color: #f9faf8;
     border-radius: 12px;
     padding: 8px 16px;
